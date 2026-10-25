@@ -1,0 +1,10 @@
+2026-10-24 10:14:02 [INFO] Initializing Subsystem: Laser Source
+2026-10-24 10:14:05 [INFO] Wafer Stage Alignment OK
+2026-10-24 10:14:12 [ERROR] Laser Source Voltage Drop Detected (118V < 120V)
+2026-10-24 10:14:15 [INFO] Retrying Laser Source Calibration...
+2026-10-24 10:14:22 [FATAL] Null pointer dereference in module: euv_beam_focus.cpp:184
+2026-10-24 10:14:23 [STACKTRACE] #0 0x00007f9b8c0012a4 in Asml::FocusControl::align()
+2026-10-24 10:14:23 [STACKTRACE] #1 0x00007f9b8c0014b0 in main()
+2026-10-24 10:14:25 [MEMORY_LEAK] Unfreed block 0x000060000021c000 (32 bytes) allocated at scanner.cpp:42
+2026-10-24 10:14:28 [INFO] System shut down with exit code 1
+
